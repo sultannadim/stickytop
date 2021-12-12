@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$(window).on('scroll',function(){
+	if($(window).scrollTop()){
+		$('nav').addClass('nav_bg');
+	}else{
+		$('nav').removeClass('nav_bg');
+	}
+});
+});
